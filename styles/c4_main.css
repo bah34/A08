@@ -3,24 +3,20 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
 }
-
 /* the styles for the header */
 header img {
 	float: left;
 }
-
 header h2 {
 	font-size: 170%;
-	color: #800000;
+	color: var(--global-color-1);
 	text-indent: 30px;
 }
-
 header h3 {
 	font-size: 130%;
 	font-style: italic;
 	text-indent: 30px;
 }
-
 /* the styles for the main content */
 main {
 	clear: left;
@@ -35,12 +31,18 @@ main h2 {
 main h3 {
 	font-size: 105%;
 }
-
 a:hover {
 	font-style: italic;
 }
-
 /* the styles for the footer */
-p {
+footer p {
 	text-align: center;
+}
+/* classes */
+.shadow {
+	text-shadow: 1px 1px var(--global-color-1);
+}
+/* root aka the most distinguished of gentlemen previously known as THE homie */
+:root {
+	--global-color-1: #800000;
 }
