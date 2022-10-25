@@ -42,7 +42,7 @@ footer p {
 .shadow {
 	text-shadow: 1px 1px var(--global-color-1);
 }
-/* root aka the most distinguished of gentlemen previously known as THE homie */
+/* root */
 :root {
 	--global-color-1: #800000;
 }
